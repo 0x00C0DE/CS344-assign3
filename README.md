@@ -12,5 +12,5 @@ INSTRUCTIONS to compile & run
 
 3. to compile "gcc -std=gnu99 -Wall ass3_smallsh.c -o smallsh"
 
-4. to run the executable "./smallsh" or "valgrind --leak-check=yes smallsh"
+4. to run the executable "./p3testscript" or "valgrind --leak-check=yes p3testscript"
 ---------------
