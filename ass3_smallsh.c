@@ -92,7 +92,7 @@ int status_temp(int pid_Status)
 
 void SIGTSTP_Handler(int signalNumber) 
 {
-	//checks if foreground is of. If off then exit and set it back to 1
+	//checks if foreground is off. If off then exit foreground and set it back to 1
 	if (ForegroundVar == 0)
 	{
 		ForegroundVar = 1;
