@@ -349,8 +349,8 @@ int main() {
 		//initialize null to be end of the array. Used to terminate a string
 		userInData[0] = '\0';
 		expandPID[0] = '\0';
-		redirectInfile[0] = '\0'; //initalized to null 
-		redirectOutfile[0] = '\0'; //initalized to null 
+		redirectInfile[0] = '\0';
+		redirectOutfile[0] = '\0'; 
 	
 
 		//signals the user for a prompt
