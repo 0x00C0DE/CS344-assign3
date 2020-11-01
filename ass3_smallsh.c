@@ -393,7 +393,7 @@ int main() {
 			{
 				bgFlag = 1;
 			}
-			//specifically checks for the $$, by itself in the string
+			//specifically checks for the $$, to get the pid
 			else if (strcmp(token, "$$") == 0)
 			{
 				sprintf(expandPID, "%d", getpid()); //expands the var to receive the PID value
